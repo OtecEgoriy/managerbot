@@ -2,8 +2,6 @@ import telebot
 from telebot import types
 from collections import defaultdict
 
-bot = telebot.TeleBot('898491912:AAEmzXCPpJW8RY5gvq-vPdVzWobjZBJ9wOQ')
-
 keyboard1 = telebot.types.ReplyKeyboardMarkup()  # обращение к библиотеке
 keyboard1.row('хочу')  # строка с кнопками
 keyboard1.row('Отстань')
